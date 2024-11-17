@@ -1,6 +1,6 @@
 /*styles make fights*/
 
-* {
+  *{
      outline: 2px solid red; 
   }
 
@@ -68,11 +68,35 @@ img {
     width:90%;
   }
 
+.information-section {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 .information-section h1 {
     color: #1f2937;
     font-size: 36px;
     font-weight: 900;
     text-align: center;
+}
+
+.photo-grid {
+    display: flex;
+}
+
+.photo-grid p {
+    margin: 10px;
+    color: #E5E7EB;
+    text-align: center;
+}
+
+.photo-grid img {
+    outline: 2px solid #3882F6;
+    border-radius: 4px;
+}
+
+.photo-card {
+    margin: 10px;
 }
 
 
