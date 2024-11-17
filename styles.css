@@ -1,8 +1,6 @@
 /*styles make fights*/
 
-{
-     outline: 2px solid red; 
-  }
+
 
 .header {
     display:flex;
@@ -120,11 +118,12 @@ img {
 .quote-section p {
     margin-top: 0;
     text-align: right;
+    font-weight: 900;
 }
 
 .CTA-section {
     background-color: #3882F6;
-    margin: 50px;
+    margin: 60px;
     padding: 20px;
     color: #E5E7EB;
     display: flex;
@@ -152,6 +151,13 @@ img {
     padding: 5px;
     border-radius: 4px;
     margin-right: 70px;
+}
+
+footer p {
+    text-align: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    padding: 30px;
 }
 
 
