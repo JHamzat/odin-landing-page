@@ -60,6 +60,7 @@ header li a {
     color: #E5E7EB;
     border: none;
     border-radius: 4px;
+    padding: 5px;
 }
 
 img {
@@ -72,6 +73,7 @@ img {
 .information-section {
     margin-left: 100px;
     margin-right: 100px;
+    padding-bottom: 20px;
 }
 
 .information-section h1 {
@@ -79,6 +81,7 @@ img {
     font-size: 36px;
     font-weight: 900;
     text-align: center;
+    
 }
 
 .photo-grid {
@@ -117,6 +120,38 @@ img {
 .quote-section p {
     margin-top: 0;
     text-align: right;
+}
+
+.CTA-section {
+    background-color: #3882F6;
+    margin: 50px;
+    padding: 20px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.CTA-section h3 {
+    margin-left: 100px;
+    margin-bottom: 0;
+}
+
+.CTA-section p {
+    margin-left: 100px;
+    margin-top: 0;
+}
+
+.CTA-section button {
+    width: 10%;
+    align-self: center;
+    justify-self: center;
+    background-color:#3882F6;
+    color: #E5E7EB;
+    border-style: solid;
+    border: 2px solid #E5E7EB;
+    padding: 5px;
+    border-radius: 4px;
+    margin-right: 70px;
 }
 
 
